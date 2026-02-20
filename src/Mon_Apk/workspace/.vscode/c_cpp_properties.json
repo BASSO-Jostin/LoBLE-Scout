@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Zephyr-CMake",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "D:/Documents/M2/RTOS/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "gnu++14",
+            "includePath": [
+                "${workspaceFolder}/build/zephyr/include/generated",
+                "${workspaceFolder}/build/zephyr/include",
+                "D:/Git/zephyrprojet/v3.7/zephyr/include",
+                "D:/Git/zephyrprojet/v3.7/zephyr/include/zephyr",
+                "D:/Documents/M2/RTOS/zephyr-sdk-0.17.4/arm-zephyr-eabi/arm-zephyr-eabi/include"
+            ],
+            "defines": [
+                "KERNEL",
+                "__ZEPHYR__=1"
+            ]
+        }
+    ],
+    "version": 4
+}

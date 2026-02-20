@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug with OpenOCD",
+      "type": "cortex-debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}\\build\\zephyr\\zephyr.elf",
+      "servertype": "openocd",
+      "serverpath": "D:\\Applications\\openocd-20250710\\OpenOCD-20250710-0.12.0\\bin\\openocd.exe",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f1x.cfg"
+      ],
+      "gdbPath": "D:\\Documents\\M2\\RTOS\\zephyr-sdk-0.17.4\\arm-zephyr-eabi\\bin\\arm-zephyr-eabi-gdb.exe",
+      "device": "STM32F103xB",
+      "svdFile": "${workspaceFolder}/zephyr/boards/arm/edu32f103/edu32f103.svd",
+      "showDevDebugOutput": "raw",
+      "runToEntryPoint": "main",
+      "postLaunchCommands": [
+        "monitor reset halt",
+        "load",
+        "monitor reset halt"
+      ],
+      "rtos": "Zephyr",
+      "armToolchainPath": "D:\\Documents\\M2\\RTOS\\zephyr-sdk-0.17.4\\arm-zephyr-eabi\\bin",
+      "toolchainPrefix": "arm-zephyr-eabi"
+    }
+  ]
+}

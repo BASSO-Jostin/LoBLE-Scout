@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "gpio.h": "c",
+        "*.h": "c",
+        "zephyr.h": "c"
+    },
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cortex-debug.openocdPath": "openocd",
+    "cortex-debug.armToolchainPath": "D:/Documents/M2/RTOS/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin",
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.automationShell.windows": "cmd.exe"
+}

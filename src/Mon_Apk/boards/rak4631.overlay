@@ -1,0 +1,10 @@
+/* Enable UART1 on rak11720. Pin control state is defined in the board DTS so
+ * the overlay only enables uart1 and references the existing label.
+ */
+
+&uart1 {
+    status = "okay";
+    pinctrl-0 = <&uart1_default>;
+    pinctrl-names = "default";
+    current-speed = <115200>;
+};
