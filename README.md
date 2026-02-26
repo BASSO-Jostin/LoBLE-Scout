@@ -86,6 +86,8 @@ Total: **8 bytes**
 
 ## 📶🔵 BLE - short-range transmission
 
+Alerts were received on a smartphone using the nRF Connect application over BLE.
+
 - Short-range transmission
 - Distance transmission
 - Issuing alerts
