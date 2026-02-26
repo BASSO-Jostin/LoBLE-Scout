@@ -21,8 +21,9 @@ Design and implement a full IoT architecture capable of:
 ## 🏗️ System Architecture
 
 
-
-
+<p align="center"> 
+  <img src="https://github.com/BASSO-Jostin/RainGauge_BLE/blob/main/Picture/Architecture.png">
+</p>
 
 ---
 
@@ -67,13 +68,17 @@ Total: **8 bytes**
 
 ## 🌐 Node-red Integration
 
-Once received by the LoRa gateway, data is:
+Once received by the Satellite, data is:
 
 1. Published to an MQTT topic
 2. Subscribed by Node-RED
 3. Decoded from hex to int32
 4. Converted back to floating-point coordinates
-5. Stored for visualization
+5. Stored for visualization in InfluxDB
+
+<p align="center"> 
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/tree/main/Image/Node-red.jpg">
+</p>
 
 ---
 
@@ -81,18 +86,27 @@ Once received by the LoRa gateway, data is:
 
 Data is visualized in **Grafana**:
 
-- Real-time latitude & longitude
+- Direct cpnnection to InfluxDB
+- Real-time Position
 - Historical position tracking
-- Time-series visualization
+- GeoMap visualization
+
+<p align="center"> 
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/tree/main/Image/GeoMap.jpg">
+</p>
 
 ---
 
 ## 🔋 Power Optimization Strategy
 
-- Periodic transmission (configurable interval)
-- Low-power sleep modes
-- Efficient payload encoding
-- Radio resource arbitration between BLE and LoRa
+- 532 mA during join mode for 1.478 s 
+- 63.4 mA when waiting for 4 min
+- 308 mA during transmission mode for 914 ms
+
+
+<p align="center"> 
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/tree/main/Image/Consumption.jpg" width=550 height=400>
+</p>
 
 ---
 
@@ -109,8 +123,9 @@ Data is visualized in **Grafana**:
 ```bash
 To build : west build -b rak11720 .
 To flash : west flash
+```
 
-
+---
 
 ## 🧩 Challenges Faced
 
@@ -119,10 +134,10 @@ To flash : west flash
 - RTOS thread synchronization
 - Efficient payload encoding under LoRa constraints
 
+---
+
 ## 🔮 Future Improvements
 
 - Geofencing
-- Adaptive transmission rate
 - Mobile application
-- Payload compression
-- OTA firmware updates
+- Optimisation of energy consumption
