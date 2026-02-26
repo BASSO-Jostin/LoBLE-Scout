@@ -32,6 +32,11 @@ Design and implement a full IoT architecture capable of:
 - Relay (RAK11720 & Module EchoStar)
 - GPS module
 
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/GPS.png"/>
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/EchoStar.jpg"/>
+</div>
+
 
 ---
 
@@ -100,7 +105,7 @@ Once received by the Satellite through **LoRa**, data is:
 
 Data is visualized in **Grafana**:
 
-- Direct cpnnection to InfluxDB
+- Direct connection to InfluxDB
 - Real-time Position
 - Historical position tracking
 - GeoMap visualization
