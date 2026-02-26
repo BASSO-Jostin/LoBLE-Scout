@@ -22,7 +22,7 @@ Design and implement a full IoT architecture capable of:
 
 
 <p align="center"> 
-  <img src="https://github.com/BASSO-Jostin/RainGauge_BLE/blob/main/Picture/Architecture.png">
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/Architecture.png">
 </p>
 
 ---
@@ -77,7 +77,7 @@ Once received by the Satellite, data is:
 5. Stored for visualization in InfluxDB
 
 <p align="center"> 
-  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/tree/main/Image/Node-red.jpg">
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/Node-red.jpg">
 </p>
 
 ---
@@ -92,7 +92,7 @@ Data is visualized in **Grafana**:
 - GeoMap visualization
 
 <p align="center"> 
-  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/tree/main/Image/GeoMap.jpg">
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/GeoMap.jpg">
 </p>
 
 ---
@@ -105,7 +105,7 @@ Data is visualized in **Grafana**:
 
 
 <p align="center"> 
-  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/tree/main/Image/Consumption.jpg" width=550 height=400>
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/Consumption.jpg">
 </p>
 
 ---
