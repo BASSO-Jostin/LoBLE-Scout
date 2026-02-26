@@ -5,6 +5,19 @@ The project demonstrates a complete IoT pipeline: from embedded data acquisition
 
 ---
 
+## 🛠️ Tech Stack
+
+- Zephyr RTOS
+- RAK11720 (Apollo3)
+- LoRaWAN
+- BLE
+- MQTT
+- Node-RED
+- InfluxDB
+- Grafana
+
+---
+
 ## 🎯 Project Objective
 
 Design and implement a full IoT architecture capable of:
@@ -117,6 +130,8 @@ Data is visualized in **Grafana**:
 ---
 
 ## 🔋 Power Optimization Strategy
+
+Measured using Otii 3 power analyzer.
 
 - 532 mA during join mode for 1.478 s 
 - 63.4 mA when waiting for 4 min
