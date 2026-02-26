@@ -33,8 +33,8 @@ Design and implement a full IoT architecture capable of:
 - GPS module
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/GPS.png" width="30%" />
-  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/EchoStar.jpg" width="65%" />
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/GPS.png" width="30%" height="200"  />
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/EchoStar.jpg" width="65%" height="200"  />
 </div>
 
 
