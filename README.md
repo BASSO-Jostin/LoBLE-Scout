@@ -11,7 +11,7 @@ Design and implement a full IoT architecture capable of:
 
 - Acquiring GPS coordinates
 - Encoding data efficiently for LoRa transmission
-- Transmitting data over long range (LoRa) and over short-range (BLE)
+- Transmitting data over **long range (LoRa)** and **over short-range (BLE)**
 - Receiving data via MQTT
 - Processing with Node-RED
 - Visualizing in Grafana
@@ -66,9 +66,23 @@ Total: **8 bytes**
 
 ---
 
-## 🌐 Node-red Integration
+## 📶🔵 BLE - short-range transmission
 
-Once received by the Satellite, data is:
+- Short-range transmission
+- Distance transmission
+- Issuing alerts
+
+<p align="center"> 
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/BLE_Value.jpg">
+</p>
+
+---
+
+## 📡🌍 LoRa - long-range transmission
+
+### 🌐 Node-red Integration
+
+Once received by the Satellite through **LoRa**, data is:
 
 1. Published to an MQTT topic
 2. Subscribed by Node-RED
@@ -82,7 +96,7 @@ Once received by the Satellite, data is:
 
 ---
 
-## 📊 Visualization
+### 📊 Visualization
 
 Data is visualized in **Grafana**:
 
