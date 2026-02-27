@@ -42,8 +42,9 @@ Design and implement a full IoT architecture capable of:
 
 ## 🔧 Hardware
 
-- Relay (RAK11720 & Module EchoStar)
-- GPS module
+- Relay board (RAK11720 + EchoStar module)
+- GPS module with external antenna
+- LoRa patch antenna (S Band)
 <div align="center" style="display: flex; justify-content: center; gap: 20px;" >
   <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/GPS_Module1.jpg" height="350" />
   <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/EchoStar_RAK11720_1.jpg" height="350"/>
@@ -176,8 +177,8 @@ To flash : west flash
 - Geofencing
 - Mobile application
 - Optimisation of energy consumption
- <br>
-
+ 
+---
 <p align="center"> 
   <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/System.jpg" height="500">
 </p>
