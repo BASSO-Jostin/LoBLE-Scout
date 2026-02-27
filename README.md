@@ -50,6 +50,10 @@ Design and implement a full IoT architecture capable of:
   <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/EchoStar.jpg" width="65%" height="250"  />
 </div> -->
 
+<p align="center"> 
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/System.jpg">
+</p>
+
 
 ---
 
