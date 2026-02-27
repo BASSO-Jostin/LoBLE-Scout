@@ -46,12 +46,8 @@ Design and implement a full IoT architecture capable of:
 - GPS module
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/GPS_Module.jpg" width="30%" height="400"  />
-  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/EchoStar_RAK11720.jpg" width="65%" height="250"  />
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/EchoStar_RAK11720.jpg" width="65%" height="400"  />
 </div>
-
-<p align="center"> 
-  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/System.jpg" width="70%" height="400">
-</p>
 
 
 ---
@@ -180,3 +176,7 @@ To flash : west flash
 - Geofencing
 - Mobile application
 - Optimisation of energy consumption
+
+<p align="center"> 
+  <img src="https://github.com/BASSO-Jostin/LoBLE-Scout/blob/main/Image/System.jpg" width="70%" height="350">
+</p>
